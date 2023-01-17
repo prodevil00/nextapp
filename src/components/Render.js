@@ -42,18 +42,12 @@ export function Render({post}){
         <nav className="navbar is-dark m-4 p-2" style={{width:"100%", borderRadius:"10px"}} role="navigation" aria-label="main navigation">
           <div className="navbar-menu">
             <div className="navbar-start">
-              <a href="/" className="navbar-item">
-                Home
-              </a>
-              <a href='#news' className="navbar-item">
-                News
-              </a>
-              <a href="#contact" className="navbar-item">
-                Contact
-              </a>
+              <a href="/" className="navbar-item">Home</a>
+              <a href='#news' className="navbar-item">News</a>
+              <a href="#contact" className="navbar-item">Contact</a>
             </div>
           </div>
-  
+
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
